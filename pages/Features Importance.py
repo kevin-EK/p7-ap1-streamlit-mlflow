@@ -49,9 +49,9 @@ random_seed = 971
 X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=0.3, random_state=random_seed,stratify=y) #~~100000 samples
 X_test, X_validation, y_test, y_validation = train_test_split( X_test, y_test, test_size=0.5, random_state=random_seed,stratify=y_test) 
 
-
-result = permutation_importance(
-    model, X_test, y_test, n_repeats=5, random_state=42, n_jobs=-1
+from lightgbm import plot_importance
+result = plot_importance(
+    model #, X_test, y_test, n_repeats=5, random_state=42, n_jobs=-1
 )
 #print(f"Elapsed time to compute the importances: {elapsed_time:.3f} seconds")
 forest_importances = pd.Series(result.importances_mean, index=X.columns)
