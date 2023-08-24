@@ -242,7 +242,7 @@ else:
         
            
     
-    st.write( DFManu )
+    #st.write( DFManu )
     
     # Bouton Score
     predict_btn_manu = st.sidebar.button('Obtenir le score')
