@@ -1,0 +1,4 @@
+Pipeline(steps=[('impCat', SimpleImputer(strategy='most_frequent')),
+                ('ohe',
+                 OneHotEncoder(drop='first', handle_unknown='ignore',
+                               sparse=False))])
