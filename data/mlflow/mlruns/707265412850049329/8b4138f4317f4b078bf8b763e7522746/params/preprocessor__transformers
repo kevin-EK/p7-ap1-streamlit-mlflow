@@ -1,3 +1,0 @@
-[('num', Pipeline(steps=[('impNumerical', SimpleImputer(strategy='median'))]), <sklearn.compose._column_transformer.make_column_selector object at 0x0000024881AC6810>), ('disc', Pipeline(steps=[('impDiscret', SimpleImputer(strategy='most_frequent'))]), <sklearn.compose._column_transformer.make_column_selector object at 0x0000024881AD0650>), ('cat', Pipeline(steps=[('impCat', SimpleImputer(strategy='most_frequent')),
-                ('ohe',
-                 OneHotEncoder(drop='first', handle_u...

@@ -1,7 +1,0 @@
-ColumnTransformer(transformers=[('num',
-                                 Pipeline(steps=[('impNumerical',
-                                                  SimpleImputer(strategy='median'))]),
-                                 <sklearn.compose._column_transformer.make_column_selector object at 0x0000024881AC6810>),
-                                ('disc',
-                                 Pipeline(steps=[('impDiscret',
-                                                  SimpleImputer(strategy='mo...

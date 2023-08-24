@@ -1,0 +1,3 @@
+HistGradientBoostingClassifier(class_weight='balanced', learning_rate=0.05,
+                               max_depth=20, max_iter=400,
+                               scoring='roc_auc_ovr_weighted')

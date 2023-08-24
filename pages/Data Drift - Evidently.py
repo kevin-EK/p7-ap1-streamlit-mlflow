@@ -19,8 +19,8 @@ st.sidebar.markdown("# DataDrift ❄️")
 def load_2data():   
     # create ref and cur dataset for drift detection
     important_features = joblib.load('data/cleaned/list_col_to_keep_from_train_application_final.joblib')
-    data_ref = pd.read_csv("data/source/application_train.csv", usecols=important_features ).sample(20000, replace = False)
-    data_cur = pd.read_csv("data/source/application_test.csv",  usecols= important_features )
+    data_ref = pd.read_csv("data/source/application_train_clean.csv", usecols=important_features ).sample(20000, replace = False)
+    data_cur = pd.read_csv("data/source/application_test_clean.csv",  usecols= important_features )
     return data_ref,data_cur
 
 ref_df , current_df = load_2data()

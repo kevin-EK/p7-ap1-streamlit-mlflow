@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/eleor/Documents/openclassroom/Projets/P7/OC-DS-P7-Implementez-un-modele-de-scoring/data/mlflow/mlruns/707265412850049329/33b69d821bed4955b972cf2cc2187afe/artifacts
+end_time: 1692908800678
+entry_point_name: ''
+experiment_id: '707265412850049329'
+lifecycle_stage: active
+run_id: 33b69d821bed4955b972cf2cc2187afe
+run_name: HistGradientBoosting_1
+run_uuid: 33b69d821bed4955b972cf2cc2187afe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692908696225
+status: 3
+tags: []
+user_id: eleor
