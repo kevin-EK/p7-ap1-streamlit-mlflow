@@ -34,7 +34,7 @@ def request_prediction(model_uri, data):
 @st.cache_data
 def load_data():
     important_features = joblib.load('data/cleaned/list_col_to_keep_from_train_application_final.joblib')
-    data1 = pd.read_csv("data/source/application_train_clean.csv", usecols=important_features+['TARGET','SK_ID_CURR'])
+    data1 = pd.read_csv("data/source/application_train_clean.csv", usecols=important_features+['TARGET','SK_ID_CURR']).sample(2000)
     data2 = pd.read_csv("data/source/application_test_clean.csv",  usecols= important_features+['SK_ID_CURR'] )
     
     # Données numériques
