@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Charger le modèle pré-entraîné
-model = joblib.load("data/modeles sauvegardés/HistGradientBoostingClassifier_model.sav")
+model = joblib.load("data/model-save/HistGradientBoostingClassifier_model.sav")
 
 st.title('Prédiction de défaut de paiement')
 
