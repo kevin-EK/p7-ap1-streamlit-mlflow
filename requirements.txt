@@ -1,7 +1,6 @@
 cffi==1.15.1
 cloudpickle==2.2.1
 defusedxml==0.7.1
-numpy
 packaging==23.0
 pandas
 psutil==5.9.0
