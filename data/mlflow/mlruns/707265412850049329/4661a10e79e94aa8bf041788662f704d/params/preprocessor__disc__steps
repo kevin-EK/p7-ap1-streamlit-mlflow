@@ -1,1 +1,0 @@
-[('impDiscret', SimpleImputer(strategy='most_frequent'))]
