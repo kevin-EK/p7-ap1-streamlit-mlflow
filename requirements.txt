@@ -15,4 +15,4 @@ certifi
 urllib3
 streamlit==1.25.0
 matplotlib==3.7.1
-sklearn==1.2.2
+scikit-klearn==1.2.2
